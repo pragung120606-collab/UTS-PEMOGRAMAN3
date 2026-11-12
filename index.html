@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website personal portfolio">
+  <title>Personal Portfolio | Bayu Pratama Agung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="beranda">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#beranda">My<span>Portfolio.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#pendidikan">Pendidikan</a></li>
+        <li><a href="#pengalaman">Pengalaman</a></li>
+        <li><a href="#keahlian">Keahlian</a></li>
+        <li><a class="nav-contact" href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">HALO, SELAMAT DATANG DI WEBSITE SAYA</p>
+        <h1>Saya <span>BAYU PRATAMA AGUNG</span><br>Mahasiswa Teknik Informatika</h1>
+        <p class="hero-desc">Saya tertarik pada teknologi, pengembangan website, dan desain digital. Website ini merupakan portofolio singkat untuk memperkenalkan profil, pendidikan, pengalaman, serta keahlian saya.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#tentang">Kenali Saya</a>
+          <a class="btn secondary" href="#kontak">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img src="images/profil.svg" alt="Ilustrasi foto profil Nama Anda">
+        </div>
+        <span class="floating-tag">Creative · Curious · Learner</span>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="tentang">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">TENTANG SAYA</p>
+          <h2>Biografi & Profil Utama</h2>
+          <p class="section-lead">Perkenalkan, saya <strong>BAYU PRATAMA AGUNG</strong>, seorang mahasiswa yang sedang mempelajari dunia teknologi informasi. Saya senang mencoba hal baru, mengembangkan kemampuan, dan bekerja sama dalam menyelesaikan sebuah proyek.</p>
+          <p>Melalui perkuliahan dan latihan mandiri, saya terus mengembangkan pemahaman tentang pemrograman, desain antarmuka, serta teknologi web. Saya percaya proses belajar yang konsisten dapat membantu menghasilkan karya yang bermanfaat.</p>
+        </div>
+        <aside class="profile-card">
+          <h3>Informasi Pribadi</h3>
+          <dl>
+            <div><dt>Nama</dt><dd>BAYU PRATAMA AGUNG</dd></div>
+            <div><dt>Program Studi</dt><dd>Teknik Informatika</dd></div>
+            <div><dt>Institusi</dt><dd>UNIVERSITAS PELITA BANGSA</dd></div>
+            <div><dt>Email</dt><dd>pragung120606@gmail.com</dd></div>
+            <div><dt>Domisili</dt><dd>085890377643</dd></div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section container" id="pendidikan">
+      <p class="eyebrow">LATAR BELAKANG</p>
+      <h2>Riwayat Pendidikan</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>No.</th><th>Jenjang</th><th>Nama Institusi</th><th>Tahun</th><th>Keterangan</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>SD</td><td>SDN SUKASARI 01</td><td>2014–2019</td><td>Lulus</td></tr>
+            <tr><td>2</td><td>SMP</td><td>SMP DARUSSALAM CILEUNGSI</td><td>2018–2022</td><td>Lulus</td></tr>
+            <tr><td>3</td><td>SMA/SMK</td><td>SMA PLUS DARUSSALAM KOPOSARI</td><td>2022–2025</td><td>Lulus</td></tr>
+            <tr><td>4</td><td>Perguruan Tinggi</td><td>UNIVERSITAS PELITA BANGSA</td><td>2025–Sekarang</td><td>Mahasiswa</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="pengalaman">
+      <div class="container">
+        <p class="eyebrow">PERJALANAN</p>
+        <h2>Riwayat Pengalaman Kerja</h2>
+          <table>
+            <thead><tr><th>No.</th><th>Posisi/Kegiatan</th><th>Instansi/Organisasi</th><th>Periode</th><th>Deskripsi</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Anggota HIMPUNAN SMA</td><td>HISDAM</td><td>2024</td><td>Berkolaborasi dengan ROHIS.</td></tr>
+              <tr><td>2</td><td>PANITIA MAULID NABI</td><td>SIE,ACARA</td><td>2025</td><td>Memperingati maulid Nabi Muhammad.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="keahlian">
+      <p class="eyebrow">KEMAMPUAN</p>
+      <h2>Keahlian Saya</h2>
+      <div class="skills-grid">
+        <article class="skill-card"><span>01</span><h3>HTML5</h3><p>Menyusun struktur halaman website dengan elemen semantik.</p></article>
+        <article class="skill-card"><span>02</span><h3>CSS3</h3><p>Mengatur warna, tipografi, layout, dan responsivitas website.</p></article>
+        <article class="skill-card"><span>03</span><h3>JavaScript Dasar</h3><p>Membuat interaksi sederhana pada halaman website.</p></article>
+        <article class="skill-card"><span>04</span><h3>Kerja Tim</h3><p>Berkolaborasi, berkomunikasi, dan menyelesaikan tugas bersama.</p></article>
+      </div>
+      <h3 class="list-title">Keahlian lainnya</h3>
+      <ul class="skill-list">
+        <li>Microsoft Word dan PowerPoint</li>
+        <li>Penggunaan Visual Studio Code</li>
+        <li>Dasar UI/UX dan Figma</li>
+        <li>Pemecahan masalah dan belajar mandiri</li>
+      </ul>
+    </section>
+
+    <section class="section section-soft" id="multimedia">
+      <div class="container">
+        <p class="eyebrow">MEDIA PERKENALAN</p>
+        <h2>Multimedia</h2>
+        <p class="section-lead">Tambahkan rekaman suara dan video perkenalan milikmu ke folder <code>media</code>, lalu sesuaikan nama file pada bagian ini.</p>
+        <div class="media-grid">
+          <article class="media-card">
+            <h3><span>♫</span> Audio Perkenalan</h3>
+            <p>Contoh pemutar audio HTML5.</p>
+            <audio controls preload="none">
+              <source src="media/audio.mp3" type="audio/mpeg">
+              Browser Anda tidak mendukung pemutar audio.
+            </audio>
+            <small>Letakkan file bernama <b>audio.mp3</b> di folder media.</small>
+          </article>
+          <article class="media-card">
+            <h3><span>▶</span> Video Perkenalan</h3>
+            <video controls preload="metadata" poster="images/video-poster.svg">
+              <source src="media/video.mp4" type="video/mp4">
+              Browser Anda tidak mendukung pemutar video.
+            </video>
+            <small>Letakkan file bernama <b>video.mp4</b> di folder media.</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="kontak">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">TERHUBUNG</p>
+          <h2>Kontak & Pesan</h2>
+          <p class="section-lead">Punya pertanyaan atau ingin berdiskusi? Silakan isi formulir berikut. Validasi dasar dilakukan oleh browser menggunakan atribut HTML5 dan JavaScript.</p>
+          <p class="contact-note">Catatan: formulir ini merupakan demo front-end dan belum mengirim pesan ke email atau server.</p>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <label for="nama">Nama lengkap</label>
+          <input id="nama" name="nama" type="text" placeholder="Masukkan nama" required minlength="3">
+          <label for="email">Alamat email</label>
+          <input id="email" name="email" type="email" placeholder="nama@email.com" required>
+          <label for="subjek">Subjek</label>
+          <input id="subjek" name="subjek" type="text" placeholder="Subjek pesan" required>
+          <label for="pesan">Pesan</label>
+          <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan Anda..." required minlength="10"></textarea>
+          <button class="btn primary submit-btn" type="submit">Kirim Pesan</button>
+          <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#beranda">My<span>Portfolio.</span></a>
+      <p>© <span id="year"></span> Nama Anda. Dibuat untuk UTS Pemrograman Web.</p>
+      <a href="#beranda">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
+      menuToggle.setAttribute('aria-expanded', String(!expanded));
+      navLinks.classList.toggle('show');
+    });
+    navLinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      navLinks.classList.remove('show');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('contactForm').addEventListener('submit', event => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      document.getElementById('formFeedback').textContent =
+        'Terima kasih, ' + document.getElementById('nama').value.trim() +
+        '! Form berhasil divalidasi. Ini masih demo dan belum mengirim pesan ke server.';
+      form.reset();
+    });
+  </script>
+</body>
+</html>
